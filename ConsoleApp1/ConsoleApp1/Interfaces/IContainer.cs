@@ -2,6 +2,7 @@ namespace ConsoleApp1.Interfaces;
 
 public interface IContainer
 {
-    void Unload();
-    void Load(double cargoWeight);
+    void UnloadCargo();
+    void LoadCargo(double cargoWeight);
+    public void GenerateSerialNumber();
 }
